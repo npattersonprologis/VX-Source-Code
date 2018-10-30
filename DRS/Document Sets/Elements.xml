@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="DMSDocSetHome" Path="DMSDocSetHome" Url="_cts/DMSDocumentSet" >
+    <File Path="DocSetHomePage.aspx" Url="DocSetHomePage.aspx">
+      <AllUsersWebPart WebPartOrder="0" WebPartZoneID="WebPartZone_BreadCrumb">
+        <![CDATA[<WebPart xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/WebPart/v2">
+                  <Title>Content Type configuration</Title>
+                  <FrameType>Default</FrameType>
+                  <Description>Allows administrators to configure DMS extension content types.</Description>
+                  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+                  <PartImageLarge>/_layouts/15/images/mscontl.gif</PartImageLarge>
+                  <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+                  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">../../Style Library/VX.SIS2013/Views/DMS/MetaDataBreadCrumbView.html</ContentLink>
+                </WebPart>]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartOrder="0" WebPartZoneID="WebPartZone_TopLeft">
+        <![CDATA[
+          <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2">
+	          <Assembly>Microsoft.Office.DocumentManagement, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+	          <TypeName>Microsoft.Office.Server.WebControls.DocumentSetContentsWebPart</TypeName>
+	          <Title>$Resources:dlccore,DocSetContentWP_Title</Title>
+	          <Description>$Resources:dlccore,DocSetContentWP_Description</Description>
+	          <PartImageLarge>/_layouts/15/images/msimagel.gif</PartImageLarge>
+	          <DisplayText></DisplayText>
+            <FrameState>Minimized</FrameState>
+          </WebPart>
+         ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartOrder="1" WebPartZoneID="WebPartZone_TopLeft">
+        <![CDATA[<WebPart xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/WebPart/v2">
+                  <Title>$Resources:dlccore,DocSetContentWP_Title</Title>
+                  <FrameType>Default</FrameType>
+                  <Description>$Resources:dlccore,DocSetContentWP_Description</Description>
+                  <MissingAssembly>Cannot import this Web Part.</MissingAssembly>
+                  <PartImageLarge>/_layouts/15/images/mscontl.gif</PartImageLarge>
+                  <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+                  <TypeName>Microsoft.SharePoint.WebPartPages.ContentEditorWebPart</TypeName>
+                  <ContentLink xmlns="http://schemas.microsoft.com/WebPart/v2/ContentEditor">../../Style Library/VX.SIS2013/Views/DMS/ShowViewsView.html</ContentLink>
+                </WebPart>]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartOrder="0" WebPartZoneID="WebPartZone_TopRight">
+        <![CDATA[
+          <WebPart xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/WebPart/v2">
+            <Title>Afbeelding</Title>
+            <FrameType>Default</FrameType>
+            <Description>Gebruik dit webonderdeel voor de weergave van afbeeldingen en foto's.</Description>
+            <IsIncluded>true</IsIncluded>
+            <ZoneID>WebPartZone_TopLeft</ZoneID>
+            <PartOrder>0</PartOrder>
+            <FrameState>Normal</FrameState>
+            <Height />
+            <Width />
+            <AllowRemove>true</AllowRemove>
+            <AllowZoneChange>true</AllowZoneChange>
+            <AllowMinimize>true</AllowMinimize>
+            <AllowConnect>true</AllowConnect>
+            <AllowEdit>true</AllowEdit>
+            <AllowHide>true</AllowHide>
+            <IsVisible>true</IsVisible>
+            <DetailLink />
+            <HelpLink />
+            <HelpMode>Modeless</HelpMode>
+            <Dir>Default</Dir>
+            <PartImageSmall />
+            <MissingAssembly>Kan dit webonderdeel niet importeren.</MissingAssembly>
+            <PartImageLarge />
+            <IsIncludedFilter />
+            <Assembly>Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+            <TypeName>Microsoft.SharePoint.WebPartPages.ImageWebPart</TypeName>
+            <ImageLink xmlns="http://schemas.microsoft.com/WebPart/v2/Image">~sitecollection/_layouts/images/docset_welcomepage_big.png</ImageLink>
+            <AlternativeText xmlns="http://schemas.microsoft.com/WebPart/v2/Image" />
+            <VerticalAlignment xmlns="http://schemas.microsoft.com/WebPart/v2/Image">Middle</VerticalAlignment>
+            <HorizontalAlignment xmlns="http://schemas.microsoft.com/WebPart/v2/Image">Center</HorizontalAlignment>
+            <BackgroundColor xmlns="http://schemas.microsoft.com/WebPart/v2/Image">transparent</BackgroundColor>
+          </WebPart>
+         ]]>
+      </AllUsersWebPart>
+      <AllUsersWebPart WebPartOrder="1" WebPartZoneID="WebPartZone_TopRight">
+        <![CDATA[
+      <WebPart xmlns="http://schemas.microsoft.com/WebPart/v2">
+        <Assembly>Microsoft.Office.DocumentManagement, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c</Assembly>
+        <TypeName>Microsoft.Office.Server.WebControls.DocumentSetPropertiesWebPart</TypeName>
+        <Title>$Resources:dlccore,DocSetPropertiesWP_Title</Title>
+        <Description>$Resources:dlccore,DocSetPropertiesWP_Description</Description>
+        <PartImageLarge>/_layouts/15/images/msimagel.gif</PartImageLarge>
+        <DisplayText></DisplayText>
+      </WebPart>
+         ]]>
+    </AllUsersWebPart>      
+    </File>
+  </Module>
+</Elements>
